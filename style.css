@@ -2,7 +2,13 @@
     padding:0px;
     margin:0px
 }
-
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+li{
+    margin : 20px 0;
+}
 .clearfix::after {
     content: "";
     clear: both;
@@ -21,7 +27,7 @@ ul{
 
 header{
     background-color :grey;
-    height:15vh;
+    height:25vh;
 }
 .icon{
     float:left;
@@ -69,16 +75,21 @@ li a:hover {
 
 .section_content_row{
     display: block;
+    padding :20px;
 }
 .section_content_row img{
       width :300px;
+      height: 250px;
       float: left;
+      margin: 10px 10px;
 }
 
   .section_content_row ul{
 
     float: left;
-    margin: 0 10px;
+    margin: 10px 10px;
+    width :300px;
+
 }
 
 
@@ -92,8 +103,16 @@ li a:hover {
   
   .footer_copyright{
       height:100px;
-      background-color: blueviolet
+      background-color: blueviolet;
+      padding: 50px;
+      text-align: center
   }
   .footer_section{
     background-color: gray;
   }
+
+  .footer_section_list{
+      float:left;
+      width:25%
+  }
+
